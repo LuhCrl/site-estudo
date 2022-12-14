@@ -1,0 +1,118 @@
+
+body img{
+    position: absolute;
+    display: block;
+    width: 1340px;
+    height: 1000px;
+    top: 0px;
+    left: 0px;
+}
+main{
+    position: relative;
+    background-color: rgba(241, 245, 243, 1);
+    width: 1000px;
+    height: 900px;
+    margin: -20px auto 0px auto;
+}
+
+/*Cabeça*/
+
+.banner{
+    display: block;
+    left: 0px;
+    width: 1000px;
+    height: 180px;
+}
+
+/* Menu */
+
+.menu{
+    display: block;
+}
+.menu ul{
+    position: absolute;
+    list-style: none;
+}
+.menu li{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    top: 80px;
+    left: 350px;
+    text-transform: uppercase;
+    color: rgb(224, 243, 57);
+    border-radius: 10px;
+    background-color: rgba(14, 36, 231, 0.1);
+    padding: 10px;
+    transition: 1s;
+}
+.menu li:hover{
+    background-color: rgba(35, 241, 35, 0.5);
+    border-radius: 10px;
+}
+
+/*Corpo*/
+.corpo{
+    position: absolute;
+    display: block;
+    float: left;
+    width: 700px;
+    border-right:  1px black solid;
+    top: 300px;
+}
+.ney img{
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 270px;
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px black;
+}
+.ney figcaption{
+    opacity: 0;
+    position: absolute;
+    margin: 50px;
+    width: 251px;
+    height: 270px;
+    color: white;
+    top: -23px;
+    left: 0px;
+    background-color: rgba(0, 0, 0,.2);
+    transition: 1s;
+}
+.ney figcaption:hover{
+    opacity: 1;
+    color: rgb(187, 187, 186);
+}
+
+
+
+.corpo p{
+    text-align: justify;
+    margin: 10px;
+    font-size: 15pt;
+}
+.corpo h1{
+    color: greenyellow;
+    
+}
+.corpo h3{
+    font-size: 10pt;
+    color: greenyellow;
+    font-weight: 50;
+    font-size: 18px;
+}
+
+
+
+.lateral{
+    position: absolute;
+    display: block;
+    float: right;
+    padding: 10px;
+    top: 300px;
+    left: 700px;
+    
+}
+
